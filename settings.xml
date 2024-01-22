@@ -3,22 +3,30 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <servers>
     <server>
-      <username>dummy</username>
-      <password>Dh@nush1947</password>
+      <username>dhanushtamilselvan26@gmail.com</username>
+      <password>AKCpBrvurbN9vqS1SKTt1971tCN1E87gj9KeXQvDjdryNtLCSndnTwkNJPXXgLb46LpgnSRjZ</password>
       <id>central</id>
     </server>
     <server>
-      <username>dummy</username>
-      <password>Dh@nush1947</password>
+      <username>dhanushtamilselvan26@gmail.com</username>
+      <password>AKCpBrvurbN9vqS1SKTt1971tCN1E87gj9KeXQvDjdryNtLCSndnTwkNJPXXgLb46LpgnSRjZ</password>
       <id>snapshots</id>
     </server>
   </servers>
+  <mirrors>
+    <mirror>
+      <mirrorOf>*</mirrorOf>
+      <name>testartifactrepo-libs-snapshot</name>
+      <url>https://dhanusht.jfrog.io/artifactory/testartifactrepo-libs-snapshot</url>
+      <id>testartifactrepo-libs-snapshot</id>
+    </mirror>
+  </mirrors>
   <profiles>
     <profile>
       <repositories>
         <repository>
           <snapshots>
-            <enabled>true</enabled>
+            <enabled>false</enabled>
           </snapshots>
           <id>central</id>
           <name>testartifactrepo-libs-release</name>
@@ -34,7 +42,7 @@
       <pluginRepositories>
         <pluginRepository>
           <snapshots>
-            <enabled>true</enabled>
+            <enabled>false</enabled>
           </snapshots>
           <id>central</id>
           <name>testartifactrepo-libs-release</name>
