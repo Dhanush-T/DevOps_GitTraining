@@ -73,5 +73,11 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
-
+	<distributionManagement>
+	    <repository>
+	        <id>central</id>
+	        <name>a0devxhzx3htr-artifactory-primary-0-releases</name>
+	        <url>https://dhanusht.jfrog.io/artifactory/testartifactrepo-libs-release</url>
+	    </repository>
+	</distributionManagement>
 </project>
